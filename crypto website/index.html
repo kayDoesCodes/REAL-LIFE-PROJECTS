@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="cryptogenesis.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>cryptogenesis</title>
 </head>
 <body>
   <section class="h-screen" id="head-section">
-    <header class="flex justify-between items-center bg-white p-4 sticky top-0 z-50" id="header">
+    <header class="flex justify-between items-center bg-white p-4" id="header">
       <div>
         <h1 class="font-bold text-gray-900 text-1xl">
           <a href="#"><i class="fa fa-connectdevelop" aria-hidden="true"></i> CRYPTOGENESIS</a>
@@ -56,13 +57,15 @@
     </div>
   </section>
 
-  <div class="bg-gray-900 mt-80 p-5 text-white mx-20 rounded-xl">
-    <div class="flex justify-center items-left space-x-10">
+  <div class="bg-gray-900 mt-80 p-5 text-white mx-20 rounded-xl relative">
+    <div class="flex justify-center items-left space-x-10 w-full">
       <div>
         <h3 class="text-2xl/normal">AES Encryption</h3>
         <h2 class="font-bold text-3xl/normal">256bits.</h2>
         <p class="text-pretty">Our platform utilizes industry-standard AES-256 encryption to ensure the confidentiality, integrity, and authenticity of your data.</p>
       </div>
+
+      <hr id="line-one">
 
       <div>
         <h3 class="text-2xl/normal">Security Incidents</h3>
@@ -70,18 +73,101 @@
         <p class="text-pretty">Our team is trained to identify, contain, and resolve incidents promptly, safeguarding your assets and maintaining the integrity of our platform.</p>
       </div>
 
+      <hr id="line-two">
+
       <div>
-        <h3 class="text-2xl">Security Certification</h3>
-        <h2 class="font-bold text-3xl">CISA+</h2>
+        <h3 class="text-2xl/normal">Security Certification</h3>
+        <h2 class="font-bold text-3xl/normal">CISA+</h2>
         <p class="text-pretty">Cryptogenesis holds the esteemed CISA+ certification, demonstrating our commitment to the highest standards of information security and risk management.</p>
       </div>
 
+      <hr id="line-three">
+
       <div>
-        <h3 class="text-2xl">Encrypted Data</h3>
-        <h2 class="font-bold text-3xl">100%</h2>
+        <h3 class="text-2xl/normal">Encrypted Data</h3>
+        <h2 class="font-bold text-3xl/normal">100%</h2>
         <p class="text-pretty">Cryptogenesis employs advanced encryption techniques to shield your data from potencial threats.</p>
       </div>
     </div>
   </div>
+
+  <!--wallet page-->
+
+  <section id="wallet">
+    <div class="flex justify-center flex-col items-center mt-40 mb-20 mx-30">
+      <div class="text-center text-pretty text-white flex flex-col justify-center items-center w-full">
+        <h1 class="text-7xl font-bold w-3/4">Fully featured to buy, trade and invest in crypto.</h1>
+        <p class="text-xl/normal w-8/12 items-center">Unlock the full potential of cryptocurrency with cryptogenesis. Our platform offers a wide range of features and tools to support your buying, trading, and investing needs, helping you navigate the markets like a pro.</p>
+      </div>
+
+      <div class="bg-gray-900 mt-10 grid grid-cols-2 gap-10 rounded-xl w-full flex justify-items-center items-center bg-wallet">
+        <div class="pl-15 text-white">
+          <i class="fas fa-wallet text-3xl"></i>
+          <h2 class="text-5xl/normal font-bold">Built-in Wallet</h2>
+          <p class="font-bold mt-3">Experience the convenience of a built-in wallet with cryptogenesis. Store, send, and receive cryptocurrencies with ease, and monitor your balances in real-time, all from a single, secure platform.</p>
+          <button class="font-bold mt-10 cursor-pointer p-3 hover:text-black hover:bg-white btn-learn">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+
+        <div class="flex justify-center items-center">
+          <img src="images/crypto 5.png" alt="app-demo" class="w-3/4 z-500">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-10 mt-20 w-full text-white text-pretty">
+        <div>
+          <span class="text-3xl"><i class="fa fa-credit-card" aria-hidden="true"></i></span>
+          <h2 class="font-bold text-2xl mt-2">Receive & send anytime</h2>
+          <p class="font-bold mt-2">Experience the freedom to receive and send cyrptocurrencies at your convenience. Cryptogenesis empowers you to transact quickly, securely, and effectively, without restrictions or limitations.</p>
+        </div>
+
+        <div>
+          <span class="text-3xl"><i class="fas fa-chart-bar"></i></span>
+          <h2 class="font-bold text-2xl mt-2">View charts & report</h2>
+          <p class="font-bold mt-2">Monitor your crypto portfolio's performance with ease using our interactive charts and reports. Cryptogenesis provides you with the insights you need to stay ahead of the market and achieve your investment goals.</p>
+        </div>
+
+        <div>
+          <span class="text-3xl"><i class="fas fa-money-bill"></i></span>
+          <h2 class="font-bold text-2xl mt-2">Earn passively</h2>
+          <p class="font-bold mt-2">Put your crypto assets to work with cryptogenesis' passive earning options. Enjoy flexible, secure, and innovative solutions that generate returns, allowing you to build wealth over time.</p>
+        </div>
+      </div>
+
+      <a href=""><button class="cursor-pointer mt-20 text-white bg-black p-3 rounded-full hover:bg-white hover:text-black font-bold duration-500 ease-in">Browse all features</button></a>
+    </div>
+  </section>
+
+  <!--Vault section-->
+
+  <section class="mb-20 mx-10 mt-30 text-pretty" id="vault">
+    <div class="flex justify-center items-center flex-col">
+      <div class="flex flex-col justify-center items-center text-center text-white mb-20">
+        <h1 class="text-8xl/normal font-bold">Your Personal Crypto Vault</h1>
+        <p class="font-bold text-2xl/normal w-8/12">We provide you with a secure and reliable digital vault. Store, manage, and protect your crptocurrencies with confidence.</p>
+      </div>
+
+      <div class="grid grid-cols-2 w-full text-white flex justify-items-center items-center">
+        <div class="w-full flex justify-center items-center" id="vault-img-1">
+          <img src="images/crypto 4.png" alt="" class="w-8/12">
+        </div>
+
+        <div class="w-3/4">
+          <h3 class="font-bold text-4xl mb-3">Designed For Maximum Protection</h3>
+          <p class="font-bold text-white">Our wallet is designed for maximum protection, with advanced security features and protocols in place to safeguard your assets. you can trust us to keep your digital assets secure.</p>
+        </div>
+
+        <div class="w-3/4">
+          <h3 class="font-bold text-4xl mb-3">Next-Gen Crypto Wallet Technology</h3>
+          <p class="font-bold text-white">Unlock the full potential of cryptocurrency with our state-of-the-art wallet. Enjoy enhanced security, seamless transctions, and intuitive management of your digital assets.</p>
+        </div>
+
+        <div class="w-full flex justify-center items-center" id="vault-img-2">
+          <img src="images/crypto 2.png" alt="" class="w-3/4">
+        </div>
+      </div>
+
+        <a href=""><button class="cursor-pointer p-3 bg-white text-black rounded-full font-bold mt-20 hover:bg-black hover:text-white">Download App<i class="fa fa-download" aria-hidden="true"></i></button></a>
+    </div>
+  </section>
 </body>
 </html>
