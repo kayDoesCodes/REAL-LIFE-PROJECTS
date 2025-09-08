@@ -54,29 +54,29 @@ body{
 
 #line-one{
   border: 2px solid white;
-  width: 230px;
+  width: 200px;
   position: absolute;
-  top: 120px;
+  top: 108px;
   transform: rotate(90deg);
-  left: 170px;
+  left: 190px;
 }
 
 #line-two{
   border: 2px solid white;
-  width: 230px;
+  width: 200px;
   position: absolute;
-  top: 120px;
+  top: 108px;
   transform: rotate(90deg);
-  right: 430px;
+  right: 485px;
 }
 
 #line-three{
   border: 2px solid white;
-  width: 230px;
+  width: 200px;
   position: absolute;
-  top: 120px;
+  top: 108px;
   transform: rotate(90deg);
-  right: 80px;
+  right: 115px;
 }
 
 #wallet{
@@ -85,7 +85,7 @@ body{
   background-repeat: no-repeat;
 }
 
-#wallet h1{
+#wallet h1, #vault h1, #crypto h1{
   font-family: "Bebas Neue", sans-serif
 }
 
@@ -123,6 +123,10 @@ body{
   padding: 10px;
 }
 
-#vault h1{
-  font-family: "Bebas Neue", sans-serif
+#crypto .arrow-icon{
+  font-size: 35px;
+}
+
+#crypto .trading-coins{
+  background-color: rgb(58, 65, 87);
 }
