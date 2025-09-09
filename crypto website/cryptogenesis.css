@@ -85,7 +85,7 @@ body{
   background-repeat: no-repeat;
 }
 
-#wallet h1, #vault h1, #crypto h1{
+#wallet h1, #vault h1, #crypto h1, .how-it-works h1{
   font-family: "Bebas Neue", sans-serif
 }
 
@@ -129,4 +129,17 @@ body{
 
 #crypto .trading-coins{
   background-color: rgb(58, 65, 87);
+}
+
+.how-it-works{
+  background-image: linear-gradient(to right, rgb(35, 40, 53),rgb(35, 40, 53), transparent),linear-gradient(to top, rgb(35, 40, 53), transparent, rgb(35, 40, 53)), url(images/cryp\ 7.png);
+  background-position: top 50% right -30%;
+  background-repeat: no-repeat;
+}
+
+.how-it-works .HIW-img{
+  background-color: rgba(108, 85, 156, 0.459);
+  backdrop-filter: blur(7px);
+  border-radius: 50px;
+  border-right: rgb(207, 184, 255) solid 1px;
 }
