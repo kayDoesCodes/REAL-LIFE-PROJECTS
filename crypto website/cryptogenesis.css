@@ -85,7 +85,11 @@ body{
   background-repeat: no-repeat;
 }
 
-#wallet h1, #vault h1, #crypto h1, .how-it-works h1{
+#wallet h1, 
+#vault h1, 
+#crypto h1, 
+.how-it-works h1, 
+.download-card h1{
   font-family: "Bebas Neue", sans-serif
 }
 
@@ -142,4 +146,10 @@ body{
   backdrop-filter: blur(7px);
   border-radius: 50px;
   border-right: rgb(207, 184, 255) solid 1px;
+}
+
+.download-card{
+  background-image: url(images/cryp\ 3.png);
+  background-position: center;
+  background-size: cover;
 }
