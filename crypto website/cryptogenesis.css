@@ -90,7 +90,8 @@ body{
 #crypto h1, 
 .how-it-works h1, 
 .download-card h1,
-.clients-reviews h1{
+.clients-reviews h1,
+.news-articles h1{
   font-family: "Bebas Neue", sans-serif
 }
 
@@ -159,5 +160,18 @@ body{
   background-image:linear-gradient(to top, rgb(35, 40, 53), transparent, rgb(35, 40, 53)),linear-gradient(to right, rgb(35, 40, 53), transparent, rgb(35, 40, 53)), url(images/bg\ 2.jpg);
   background-position: center;
   background-size: 1300px;
+  background-repeat: no-repeat;
+}
+
+.news-articles .box-3{
+  background-image: url(images/crypto\ 8.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.news-articles .box-4{
+  background-image: url(images/crypto\ 5.png);
+  background-position: top 10% right 50%;
+  background-size: 150px;
   background-repeat: no-repeat;
 }
