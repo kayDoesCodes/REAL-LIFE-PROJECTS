@@ -72,3 +72,59 @@ buyTradeCrypto.addEventListener("click", () => {
     }
   }
 });
+
+//clients review section
+
+const clientOne = document.getElementById("client-one");
+const clientTwo = document.getElementById("client-two");
+const clientThree = document.getElementById("client-three");
+const clientReview = document.getElementById("clients-reviews");
+
+const clientsReviews = {
+  clientOneReview: {
+    image: "images/client 6.jpg",
+    name: "James Gun",
+    job: "Cybersecurity Analyst",
+    review: "Cryptogenesis has completely transformed my approach to investing. The platform is incredibly user-friendly, making it easy for me to buy, sell, and manage my cryptocurrency portfolio. The educational resources provided have helped me understand the market better, and the customer support team is always responsive and helpful. I've seen significant growth in my investments since I started using Cryptogenesis, and I couldn't be happier with my experience so far."
+  },
+  clientTwoReview: {
+    image: "images/client 1.jpg",
+    name: "Mercy Justine",
+    job: "Data Scientist",
+    review: "I love how Cryptogenesis makes crypto trading simple and secure. The intuitive interface and fast transactions give me confidence every time I use the app. Their regular updates and new features keep me excited about the future of digital assets. Highly recommended for anyone looking to get started with cryptocurrency!"
+  },
+  clientThreeReview: {
+    image: "images/client 4.jpg",
+    name: "Seun Adeola",
+    job: "Blockchain Developer",
+    review: "As someone new to crypto, I found Cryptogenesis incredibly welcoming. The step-by-step guides and helpful community made it easy to learn the basics and start investing. I appreciate the security features and the transparency of the platform. Cryptogenesis is my go-to choice for managing digital assets."
+  }
+};
+
+function displayReview(clients) {
+  clientReview.innerHTML = `
+    <div class="flex justify-center items-center space-x-3">
+      <img src="${clients.image}" alt="" class="h-20 w-20 rounded-full object-cover">
+      <div>
+        <h3 class="font-bold text-xl">${clients.name}</h3>
+        <p class="font-bold text-sky-400">${clients.job}</p>
+      </div>
+    </div>
+
+    <div class="font-bold text-xl">
+      <p>${clients.review}</p>
+    </div>
+  `;
+};
+
+clientOne.addEventListener("click", () => {
+  displayReview(clientsReviews.clientOneReview);
+});
+
+clientTwo.addEventListener("click", () => {
+  displayReview(clientsReviews.clientTwoReview);
+});
+
+clientThree.addEventListener("click", () => {
+  displayReview(clientsReviews.clientThreeReview);
+});

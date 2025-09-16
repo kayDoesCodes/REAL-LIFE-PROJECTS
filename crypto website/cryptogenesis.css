@@ -38,13 +38,13 @@ body{
 
 @keyframes float-up-down {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-20px); }
+  50%  { transform: translateY(-50px); }
   100% { transform: translateY(0); }
 }
 
 #hero #eth-icon,
 #hero #bit-icon {
-  animation: float-up-down 2s infinite;
+  animation: float-up-down 3s infinite;
 }
 
 #hero h1{
