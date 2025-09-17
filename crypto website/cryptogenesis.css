@@ -4,6 +4,8 @@ body{
   background-color: rgb(35, 40, 53);
 }
 
+/*HOME PAGE*/
+
 #head-section{
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(35, 40, 53)), url(images/crypto\ 6.png);
   background-position: center;
@@ -194,4 +196,17 @@ body{
 .news-letter button{
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+/*ABOUT US PAGE*/
+
+#about-head-section{
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(35, 40, 53)), url(images/cryp\ 5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-head-section #about-stats{
+  background: linear-gradient(to right, rgba(68, 88, 180, 0.671),rgba(35, 54, 138, 0.671), rgba(8, 9, 65, 0.877), rgba(8, 10, 133, 0.877));
 }
