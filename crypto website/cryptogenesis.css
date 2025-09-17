@@ -210,3 +210,9 @@ body{
 #about-head-section #about-stats{
   background: linear-gradient(to right, rgba(68, 88, 180, 0.671),rgba(35, 54, 138, 0.671), rgba(8, 9, 65, 0.877), rgba(8, 10, 133, 0.877));
 }
+
+#principles-section{
+  background-image: linear-gradient(to right, rgb(35, 40, 53),rgb(35, 40, 53),rgb(35, 40, 53), rgba(255, 255, 255, 0)),linear-gradient(to top, rgb(35, 40, 53), transparent, rgb(35, 40, 53)), url(images/cryp\ 6.png);
+  background-position: top 50% right -70%;
+  background-repeat: no-repeat;
+}
