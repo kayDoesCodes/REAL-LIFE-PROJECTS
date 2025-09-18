@@ -95,7 +95,7 @@ body{
 .clients-reviews h1,
 .news-articles h1,
 .news-letter h1{
-  font-family: "Bebas Neue", sans-serif
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #wallet .btn-learn{
@@ -200,6 +200,16 @@ body{
 
 /*ABOUT US PAGE*/
 
+#about-head-section #about-head-text h1,
+#principles-section h1,
+#the-team h1{
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#about-head-section #about-head-text h1{
+  text-shadow: 3px 5px 1px rgba(67, 102, 255, 0.466);
+}
+
 #about-head-section{
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(35, 40, 53)), url(images/cryp\ 5.png);
   background-position: center;
@@ -215,4 +225,20 @@ body{
   background-image: linear-gradient(to right, rgb(35, 40, 53),rgb(35, 40, 53),rgb(35, 40, 53), rgba(255, 255, 255, 0)),linear-gradient(to top, rgb(35, 40, 53), transparent, rgb(35, 40, 53)), url(images/cryp\ 6.png);
   background-position: top 50% right -70%;
   background-repeat: no-repeat;
+}
+
+#the-team{
+  background-image: linear-gradient(to top, rgb(35, 40, 53), transparent, rgb(35, 40, 53)), linear-gradient(to left,rgb(35, 40, 53), transparent, transparent 10%), url(images/cryp\ 13.png);
+  background-position: top 50% left -150%;
+  background-size: 1200px;
+  background-repeat: no-repeat;
+}
+
+#the-team #teams{
+  background-color: rgba(59, 25, 139, 0.452);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px;
+  border-left: 1px solid rgb(207, 155, 255);
+  border-top: 1px solid rgb(207, 155, 255);
 }
